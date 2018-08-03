@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jun Polo</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="resources/assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/vendors/animate/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/vendors/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="resources/vendors/bootstrap/bootstrap.min.css">
+    </head>
+    <body>
+        <section id="top" class="overlay height-fix">
+            <div id="particles-js"></div>
+            <div class="flex intro">
+                <div class="type-effect">
+                    <p>Welcome, I'm <span class="highlight">Jun Polo</span>.</p>
+                </div>
+                <h1 class="animated fadeIn">JUNIOR WEB DEVELOPER</h1>
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <section id="about" class="container" style="padding: 100px 0">
+                <div class="row header">
+                    ABOUT <span class="highlight">ME</span>
+                </div>
+                <div class="bar"></div>
+                <div class="row col-md-12">
+                    <div class="col-md-6 flex photo-container">
+                        <img class="photo" src="resources/assets/images/image.png">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bold">
+                            <i class="fas fa-graduation-cap"></i> WHO AM I?
+                        </div>
+                        <div class="text">
+                            Hello, my name is Jun Polo. I live in Cagayan De Oro City, the City of Golden Friendship. I'm a fresh graduate of University of Science and Technology of Southern Philippines. Throughout my quest on graduating from college, I specialise in Web Design and Development using PHP/MySQL. My interest in designing and developing websites is what caused me to love the subject. Aside from that, I am a casual 
+                            <span class="highlight" data-toggle="tooltip" data-placement="top" data-original-title="MMORPG, FPS, MOBA, Battle Royale">gamer</span> 
+                            who loves playing with friends online. I love listening to 
+                            <span class="highlight" data-toggle="tooltip" data-placement="top" data-original-title="what did you say?">music</span>, watch 
+                            <span class="highlight" data-toggle="tooltip" data-placement="top" data-original-title="the manga was better.">anime</span>, and 
+                            <span class="highlight" data-toggle="tooltip" data-placement="top" data-original-title=":)">memes</span>.
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 80px" class="row col-md-12">
+                    <div class="bold">
+                        <i class="fas fa-code"></i> SKILLS
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill">
+                            <img src="resources/assets/images/html.png">HTML
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/css3.png"> CSS
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/javascript.png"> JAVASCRIPT
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/jquery.png"> JQUERY
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/vue.png"> VUE JS
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/php.png"> PHP
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/mysql.png"> MYSQL
+                        </div>
+                        <div class="skill">
+                            <img src="resources/assets/images/codeigniter.png"> CODE IGNITER
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECT SECTION -->
+            <section class="container" style="padding: 100px 0">
+                <div id="proj-header" class="row header">
+                    PROJECTS
+                </div>
+                <div class="bar"></div>
+
+                <div id="projects" class="projects">
+                    <!-- Project Row -->
+                    <div id="projectRow">
+                        <div class="row">
+                            <div class="img-box col-sm-6">
+                                <img src="resources/assets/images/checkapp.jpg">
+                                <div class="middle">
+                                    <h2>CHECKAPP</h2><br>
+                                    <button class="btn btn-highlight" v-on:click="showDetails(0)">
+                                        <a href="#proj-header">Details</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="img-box col-sm-6">
+                                <img class="img-res" src="resources/assets/images/jobwiz.jpg">
+                                <div class="middle">
+                                    <h2>JOB WIZARDS</h2><br>
+                                    <button class="btn btn-highlight" v-on:click="showDetails(1)">
+                                        <a href="#proj-header">Details</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="img-box col-sm-6">
+                                <img class="img-res" src="resources/assets/images/eco.jpg">
+                                <div class="middle">
+                                    <h2>ONLINE FLOWER SHOP</h2><br>
+                                    <button class="btn btn-highlight" v-on:click="showDetails(2)">
+                                        <a href="#proj-header">Details</a>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="img-box col-sm-6">
+                                <img class="img-res" src="resources/assets/images/ojf.jpg">
+                                <div class="middle">
+                                    <h2>JOB ALERT</h2><br>
+                                    <button class="btn btn-highlight" v-on:click="showDetails(3)">
+                                        <a href="#proj-header">Details</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Details -->
+                    <div id="projectDetails" class="animate row">
+                        <div class="col-lg-6 row-img">
+                            <div v-if="imageLen > 1" id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img v-bind:src="'resources/assets/images/' + image +'.jpg'" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img v-bind:src="'resources/assets/images/' + image +'2.jpg'" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img v-bind:src="'resources/assets/images/' + image +'3.jpg'" style="width:100%;">
+                                    </div>
+                                </div>
+
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="fas fa-caret-square-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="fas fa-caret-square-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div v-else>
+                                <img src="resources/assets/images/ojf.jpg" style="width:100%;">
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <div class="desc">
+                                <h2> {{title}} </h2>
+                                <span class="badge badge-info">Academic Project</span>
+                                <span class="badge badge-task">Back-end</span>
+                                <p>
+                                    {{description}}
+                                </p>
+                            </div>
+                            <div class="used skill-row">
+                                <p>Technologies</p>
+
+                                <template v-for="tech in technologies">
+                                    <div class="skill">
+                                        <img v-bind:src="'resources/assets/images/' + tech + '.png'">
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center;margin-top: 30px;" class="col-xs-12">
+                            <button class="btn btn-highlight" v-on:click="back">
+                                <a href="#proj-header">
+                                    BACK
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>       
+        </div>
+
+        <footer style="margin-top: 30px">
+            <a href="#top">
+                <i class="to-top fas fa-caret-square-up">
+                </i>
+            </a>
+            <div class="container" style="margin-top: -35px">
+                <div class="footer">
+                    <div class="scroll">
+                        <a href="#about">ABOUT</a>
+                    </div>
+                    <div class="scroll">
+                        <a href="#proj-header">PORTFOLIO</a>
+                    </div>
+                    <div class="header">
+                        CONTACT
+                    </div>
+                    <div class="bar" style="margin-bottom: 1px"></div>
+                    <div class="scroll">
+                        <b>junpolojr@gmail.com</b>
+                    </div>
+                    <div class="scroll">
+                        <a href="https://www.facebook.com/jetx.saints" target="_blank()">
+                            <i class="social fab fa-facebook"></i>
+                        </a>
+                    </div>
+
+                    <div class="footer-note">
+                        Designed by <span class="highlight">Jun Polo</span> &#169; 2018
+                    </div>
+                </div> 
+
+            </div>
+        </footer>
+
+        <script src="resources/vendors/js/jquery.js"></script>
+        <script src="resources/vendors/js/jquery.min.js"></script>
+        <script src="resources/vendors/js/particles.js"></script>
+        <script src="resources/vendors/js/particles.min.js"></script>
+        <script src="resources/vendors/js/stars.js"></script>
+        <script src="resources/vendors/vue/vue.js"></script>
+        <script src="resources/vendors/vue/vue-resource.min.js"></script>
+        <script src="resources/assets/js/project.js"></script>
+        <script src="resources/vendors/bootstrap/bootstrap.js"></script>
+        <script src="resources/vendors/bootstrap/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });  
+
+            $('a[href*="#"]')
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                    && 
+                    location.hostname == this.hostname
+                ) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                    } 
+                }
+            });
+        </script>
+    </body>
+</html>
