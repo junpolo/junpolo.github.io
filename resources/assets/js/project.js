@@ -25,8 +25,8 @@
 					technologies: ["php", "mysql",]
 				},
 				{
-					title: 'Online Flower Shop',
-					description: 'An ecommerce website project for our "client" which has a flower shop. This allows the customers the ability to view and order their products online. The item will then be delivered to them.',
+					title: 'Flower Shop',
+					description: 'An ecommerce website that allows the customers the ability to view and order their products online.',
 					image: 'eco',
 					imageLen: 3,
 					technologies: ["php", "mysql",]
