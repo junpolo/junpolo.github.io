@@ -12,7 +12,7 @@
 			projects: [
 				{
 					title: 'CheckAPP',
-					description: 'CheckApp is a website project with a hospital concept where the client can send messages to his/her specific doctor that was assigned.',
+					description: 'CheckApp is a website project that allow users to send messages directly to their respective doctor assigned.',
 					image: 'checkapp',
 					imageLen: 3,
 					technologies: ["vue", "php", "mysql", "codeigniter",]
